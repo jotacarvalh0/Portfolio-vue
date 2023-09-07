@@ -68,7 +68,7 @@ $gray: #EEEEEE;
 
 
 .footer{
-    position: relative;
+    position: absolute;
     width: 100%;
     background-color: $gray;
     min-height: 100px;

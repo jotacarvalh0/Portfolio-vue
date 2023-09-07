@@ -1,10 +1,12 @@
 <template>
   <HeaderComponent/>
+  <HomeComponent/>
   <FooterComponent/>
 </template>
 
 <script>
 import HeaderComponent from './components/header.vue'
+import HomeComponent from './components/home.vue'
 import FooterComponent from './components/footer.vue'
 
 export default {
@@ -12,6 +14,7 @@ export default {
   components: {
     HeaderComponent,
     FooterComponent,
+    HomeComponent,
   }
 }
 </script>

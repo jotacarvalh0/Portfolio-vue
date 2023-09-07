@@ -48,7 +48,7 @@ $gray: #EEEEEE
 
 header
     width: 100%
-    position: fixed
+    position: absolute
     top: 0
     z-index: 999
 
