@@ -89,9 +89,63 @@ $gray: #EEEEEE
     font-size: 40px
     text-shadow: 0px -8px 5px rgba(5,59,80,0.34)
 
-.skill
-    img
-        width: 30px
-        height: 30px
+.skills-box
+    width: 80%
+    margin: 0 auto
+    gap: 3rem 1rem
+    z-index: 1000
+    margin-top: 5rem
 
+    display: grid
+    place-items: center
+    grid-template-columns: 1fr 1fr 1fr
+
+.skill
+    display: flex
+    flex-direction: row
+    align-items: center
+
+    font-size: 1.25rem
+    gap: 0.1rem
+    color: $navy
+    transition: all 0.3s ease 0s
+    text-transform: uppercase
+    font-weight: 400
+    img
+        height: 4.375rem
+        filter: grayscale(100%)
+        transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+
+.skill-name
+    letter-spacing: 0.1rem
+    line-height: 1rem
+    font-weight: 600
+    padding: 0px 0.25rem 0px 0.25rem
+
+.skill-status
+    max-width: 120px
+    font-size: 16px
+    text-transform: capitalize
+    text-align: center
+    border: 1px solid none
+    color: $gray
+    background-color: $navy
+    padding: 0.75rem
+    margin-left: 12px
+    border-radius: 12px
+    font-weight: 600
+    visibility: hidden
+    &:hover
+        transform: scale(1.1)
+        transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+        filter: drop-shadow(#666 10px 10px 5px)
+
+.skills-box div:hover img
+    filter: none
+    height: 7rem
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+
+
+.skills-box div:hover p
+    visibility: visible
 </style>

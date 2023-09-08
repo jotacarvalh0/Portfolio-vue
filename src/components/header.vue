@@ -53,7 +53,7 @@ header
     z-index: 999
 
     .navbar
-        max-width: 70%
+        max-width: 80%
         margin: 0 auto
 
         display: flex
