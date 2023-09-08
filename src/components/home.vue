@@ -172,9 +172,13 @@
 }
 .image{
     margin: auto 0;
-    width: 480px;
-    height: 480px;
+    width: 350px;
+    height: 350px;
     animation: imgFloat 7s ease-in-out infinite;
+
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    background: #053B50;
 }
 .image img{
     width: 480px;

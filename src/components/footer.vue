@@ -132,6 +132,7 @@ $gray: #EEEEEE;
 }
 
 .wave {
+
     position: absolute;
     top: -100px;
     left: 0;
