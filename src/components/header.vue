@@ -8,7 +8,7 @@
                 <ul class="menu">
                     <li><a href="#location_info">Home</a></li>
                     <li><a href="#location_sobreMim">Sobre</a></li>
-                    <li><a href="#location_tec">Tecnologias</a></li>
+                    <li><a href="#container-skills">Tecnologias</a></li>
                     <li><a href="#location_projetos">Projetos</a></li>
                 </ul> 
             </div>

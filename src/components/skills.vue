@@ -1,78 +1,80 @@
 <template>
-    <h1 class="title-box">SKILLS</h1>
-    <section class="skills-box">
-        <div class="skill">
-            <img src="../../public/skills/angular.svg" alt="Icone Angular">
+    <div class="container-skills">
+        <h1 class="title-box">SKILLS</h1>
+        <section class="skills-box">
+          <div class="skill">
+            <img src="../../public/skills/angular.svg" alt="Icone Angular" />
             <ul class="skill-description">
-                <h4 class="skill-name">Angular</h4>
-                <p class="skill-status">Intermediário</p>
+              <h4 class="skill-name">Angular</h4>
+              <p class="skill-status">Intermediário</p>
             </ul>
-        </div>
-        <div class="skill">
-            <img src="../../public/skills/vue.svg" alt="Icone Vue">
+          </div>
+          <div class="skill">
+            <img src="../../public/skills/vue.svg" alt="Icone Vue" />
             <ul class="skill-description">
-                <h4 class="skill-name">Vue</h4>
-                <p class="skill-status">Intermediário</p>
+              <h4 class="skill-name">Vue</h4>
+              <p class="skill-status">Intermediário</p>
             </ul>
-        </div>
-        <div class="skill">
-            <img src="../../public/skills/react.svg" alt="Icone React">
+          </div>
+          <div class="skill">
+            <img src="../../public/skills/react.svg" alt="Icone React" />
             <ul class="skill-description">
-                <h4 class="skill-name">React</h4>
-                <p class="skill-status">Básico</p>
+              <h4 class="skill-name">React</h4>
+              <p class="skill-status">Básico</p>
             </ul>
-        </div>
-
-        <div class="skill">
-            <img src="../../public/skills/javascript.svg" alt="Icone Javascript">
+          </div>
+      
+          <div class="skill">
+            <img src="../../public/skills/javascript.svg" alt="Icone Javascript" />
             <ul class="skill-description">
-                <h4 class="skill-name">JavaScript</h4>
-                <p class="skill-status">Avançado</p>
+              <h4 class="skill-name">JavaScript</h4>
+              <p class="skill-status">Intermediário</p>
             </ul>
-        </div>
-        <div class="skill">
-            <img src="../../public/skills/typescript.svg" alt="Icone Typescript">
+          </div>
+          <div class="skill">
+            <img src="../../public/skills/typescript.svg" alt="Icone Typescript" />
             <ul class="skill-description">
-                <h4 class="skill-name">TypeScript</h4>
-                <p class="skill-status">Intermediário</p>
+              <h4 class="skill-name">TypeScript</h4>
+              <p class="skill-status">Intermediário</p>
             </ul>
-        </div>
-        <div class="skill">
-            <img src="../../public/skills/git.svg" alt="Icone Git">
+          </div>
+          <div class="skill">
+            <img src="../../public/skills/git.svg" alt="Icone Git" />
             <ul class="skill-description">
-                <h4 class="skill-name">Git</h4>
-                <p class="skill-status">Avançado</p>
+              <h4 class="skill-name">Git</h4>
+              <p class="skill-status">Intermediário</p>
             </ul>
-        </div>
-
-        <div class="skill">
-            <img src="../../public/skills/sass.svg" alt="Icone Sass">
+          </div>
+      
+          <div class="skill">
+            <img src="../../public/skills/sass.svg" alt="Icone Sass" />
             <ul class="skill-description">
-                <h4 class="skill-name">Sass</h4>
-                <p class="skill-status">Avançado</p>
+              <h4 class="skill-name">Sass</h4>
+              <p class="skill-status">Avançado</p>
             </ul>
-        </div>
-        <div class="skill">
-            <img src="../../public/skills/go.svg" alt="Icone Go">
+          </div>
+          <div class="skill">
+            <img src="../../public/skills/go.svg" alt="Icone Go" />
             <ul class="skill-description">
-                <h4 class="skill-name">Go</h4>
-                <p class="skill-status">Básico</p>
+              <h4 class="skill-name">Go</h4>
+              <p class="skill-status">Básico</p>
             </ul>
-        </div>
-        <div class="skill">
-            <img src="../../public/skills/nodejs.svg" alt="Icone NodeJs">
+          </div>
+          <div class="skill">
+            <img src="../../public/skills/nodejs.svg" alt="Icone NodeJs" />
             <ul class="skill-description">
-                <h4 class="skill-name">NodeJS</h4>
-                <p class="skill-status">Básico</p>
+              <h4 class="skill-name">NodeJS</h4>
+              <p class="skill-status">Básico</p>
             </ul>
-        </div>
-    </section>
+          </div>
+        </section>
+    </div>
 </template>
 
 <script>
     export default {
-        name:'SkillsComponent'
-    }
+        name:'SkillsComponent',
+}
 </script>
 
 <style lang="sass">
@@ -85,9 +87,18 @@ $gray: #EEEEEE
     font-family: Arial, Helvetica, sans-serif
 
 .title-box
+    position: relative
     font-weight: bold
     font-size: 40px
-    text-shadow: 0px -8px 5px rgba(5,59,80,0.34)
+
+.title-box:hover .arrow
+    transform: rotate(45deg) translateX(10px)
+
+.container-skills:hover .title-box
+    transition: all 0.6s ease 0s
+    color: $teal
+    font-size: 45px
+    
 
 .skills-box
     width: 80%
@@ -144,7 +155,6 @@ $gray: #EEEEEE
     filter: none
     height: 7rem
     transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275)
-
 
 .skills-box div:hover p
     visibility: visible
