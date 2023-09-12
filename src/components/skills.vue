@@ -1,6 +1,6 @@
 <template>
     <div class="container-skills">
-        <h1 class="title-box">SKILLS</h1>
+        <h1 class="title-box">Skills</h1>
         <section class="skills-box">
           <div class="skill">
             <img src="../../public/skills/angular.svg" alt="Icone Angular" />
@@ -90,9 +90,6 @@ $gray: #EEEEEE
     position: relative
     font-weight: bold
     font-size: 40px
-
-.title-box:hover .arrow
-    transform: rotate(45deg) translateX(10px)
 
 .container-skills:hover .title-box
     transition: all 0.6s ease 0s

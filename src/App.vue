@@ -2,6 +2,7 @@
   <HeaderComponent/>
   <HomeComponent/>
   <SkillsComponent/>
+  <ProjectsComponent/>
   <FooterComponent/>
 </template>
 
@@ -9,15 +10,17 @@
 import HeaderComponent from './components/header.vue'
 import HomeComponent from './components/home.vue'
 import SkillsComponent from './components/skills.vue'
+import ProjectsComponent from './components/projects.vue'
 import FooterComponent from './components/footer.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
-    FooterComponent,
     HomeComponent,
     SkillsComponent,
+    ProjectsComponent,
+    FooterComponent,
   }
 }
 </script>
