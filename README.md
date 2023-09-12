@@ -3,6 +3,8 @@
 ## Project setup
 ```
 npm install
+npm install @vue/cli-service -g
+npm install --save-dev @vue/cli-plugin-babel
 ```
 
 ### Compiles and hot-reloads for development
