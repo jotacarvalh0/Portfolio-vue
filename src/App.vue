@@ -21,7 +21,7 @@ export default {
     SkillsComponent,
     ProjectsComponent,
     FooterComponent,
-  }
+}
 }
 </script>
 
