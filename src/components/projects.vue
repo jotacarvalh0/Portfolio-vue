@@ -75,6 +75,7 @@
 <style lang="sass">
 $navy: #053B50
 $blue: #176B87
+$blue2: #3586ff
 $teal: #64CCC5
 $gray: #EEEEEE
 
@@ -89,8 +90,8 @@ $gray: #EEEEEE
     margin-top: 5rem
 
 .container-project:hover .project-title
-    transition: all 0.6s ease 0s
-    color: $teal
+    transition: all 0.8s ease 0s
+    color: $blue2
     font-size: 45px
 
 .container
@@ -117,7 +118,7 @@ $gray: #EEEEEE
         &:hover
             height: 400px
             cursor: position
-            background: $teal
+            background: $blue2
         &:hover .img-box
             top: -100px
             scale: 0.75
@@ -160,12 +161,12 @@ $gray: #EEEEEE
             h2
                 font-size: 1.5rem
                 font-weight: 700
-                color: $navy
+                color: $gray
 
                 margin-bottom: 10px
 
             p
-                color: $navy
+                color: $gray
                 display: flex
                 flex-direction: column
                 align-items: center
@@ -176,11 +177,7 @@ $gray: #EEEEEE
                 display: flex
                 gap: 10px
                 margin-top: -12px
-                &:hover img
-                    transition: 0.5s
-                    filter: grayscale(0%)
                 img
-                    filter: grayscale(80%)
                     width: 30px
                     height: 30px
                 
@@ -205,13 +202,14 @@ $gray: #EEEEEE
                     align-items: center
                     gap: 4px
                     &:hover
-                        opacity: 0.8
                         background: $gray
                         color: $navy
                         transition: 0.5s
                         transform: translateY(-7px)
 
 @media (max-width: 480px)
+    .container
+        gap: 50px 50px
     .container .card
         width: 230px
         border-radius: 15px

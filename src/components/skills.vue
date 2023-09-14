@@ -79,7 +79,7 @@
 
 <style lang="sass">
 $navy: #053B50
-$blue: #176B87
+$blue: #3586ff
 $teal: #64CCC5
 $gray: #EEEEEE
 
@@ -155,4 +155,43 @@ $gray: #EEEEEE
 
 .skills-box div:hover p
     visibility: visible
+
+
+  
+@media (max-width: 480px) 
+  .container-skills
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+  .skills-box
+      width: 100%
+      margin: 0 auto
+      gap: 2rem 0rem
+      z-index: 1000
+      margin-top: 5rem
+
+      display: grid
+      place-items: center
+      grid-template-columns: 1fr 1fr
+
+  .skill
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      font-size: 1rem
+      gap: 0rem
+      img
+          height: 4.5rem
+
+  .skill-description
+    display: flex
+    padding: 0
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+
 </style>

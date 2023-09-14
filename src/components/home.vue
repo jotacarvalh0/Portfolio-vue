@@ -190,4 +190,43 @@
         transform: translateY(12px);
     }
 }
+@media (max-width: 480px) {
+    .featured-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .featured-name{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .featured-text{
+        min-height: 30vh;
+        padding-left: 0px;
+    }
+    .text-primary{
+        font-size: 60px;
+    }
+    .text-secundary{
+        font-size: 16px;
+    }
+    .feature-image{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        min-height: 10vh;
+        width: 100%;
+    }
+    .image{
+        width: 250px;
+        height: 250px;
+    }
+    .image img{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+}
 </style>
