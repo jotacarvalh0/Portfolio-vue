@@ -6,6 +6,7 @@
             <div class="wave" id="wave3"></div>
             <div class="wave" id="wave4"></div>
         </div>
+        <div class="footer-info">
             <ul class="social-icon">
                 <li class="social-icon__item">
                     <a href="mailto:devjcarvalho@gmail.com" class="social-icon__link" target=_blank>
@@ -58,6 +59,7 @@
                     </a>
                 </li>
             </ul>
+        </div>
         <p>&copy;2023 Jota Carvalho | All rights reserved</p>
     </footer>
 </template>
@@ -90,7 +92,6 @@ body{
     flex-direction: column;
     margin-top: 200px;
 }
-
 .social-icon,
 .menu {
     position: relative;
@@ -209,6 +210,7 @@ body{
         top: -80px;
     }
     .footer{
+        width: auto;
         margin-top: 100px;
         min-height: 80px;
     }
