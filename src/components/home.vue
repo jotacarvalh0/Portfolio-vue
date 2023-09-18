@@ -11,7 +11,7 @@
                         <p class="text-secundary"> Developer</p>
                         <div class="featured-text-btn">
                             <button class="btn blue-btn">Hire me</button>
-                            <a href="https://drive.google.com/file/d/1TaANbzAN4q81YSZSLtJwrrWJUm9PZCwW/view?usp=sharing" class="btn" target="_blank">
+                            <a href="https://drive.google.com/file/d/13pgyNeuAJmwPOg9PC8MkfmY1s8rX1EkA/view?usp=sharing" class="btn" target="_blank">
                                 Download CV
                             </a>
                 </div>
